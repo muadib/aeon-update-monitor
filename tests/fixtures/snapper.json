@@ -1,0 +1,5 @@
+{"root": [
+ {"number": 0, "type": "single", "pre-number": null, "date": "", "user": "root", "cleanup": "", "description": "current", "userdata": {}, "active": false, "default": false},
+ {"number": 41, "type": "single", "pre-number": null, "date": "2026-11-18 03:10:40", "user": "root", "cleanup": "number", "description": "Snapshot Update of #40", "userdata": {"important": "yes"}, "active": true, "default": false},
+ {"number": 42, "type": "single", "pre-number": null, "date": "2026-11-24 03:12:30", "user": "root", "cleanup": "number", "description": "Snapshot Update of #41", "userdata": {"important": "yes"}, "active": false, "default": true}
+]}

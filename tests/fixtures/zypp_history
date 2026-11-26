@@ -1,0 +1,13 @@
+# zypp history (fixture con el formato real: fecha|acción|campos...)
+2026-11-18 03:10:01|command|root|'zypper' '--root' '/tmp/tu-abc' 'dup' '--no-allow-vendor-change'|
+2026-11-18 03:10:20|install|bash|5.3.1-1.1|x86_64|repo-oss|abc123|
+2026-11-18 03:10:20|remove |bash|5.3.0-1.1|x86_64|root@localhost|
+2026-11-18 03:10:25|install|kernel-default|7.3.5-1.1|x86_64|repo-oss|def456|
+2026-11-18 03:10:26|install|newpkg|1.0-1.1|x86_64|repo-oss|aaa111|
+2026-11-18 03:10:27|remove |oldpkg|2.0-1.1|x86_64|root@localhost|
+# 2026-11-18 03:10:30 zypper dup done
+2026-11-24 03:12:00|command|root|'zypper' '--root' '/tmp/tu-xyz' 'dup'|
+2026-11-24 03:12:10|install|bash|5.3.2-1.1|x86_64|repo-oss|abc124|
+2026-11-24 03:12:10|remove |bash|5.3.1-1.1|x86_64|root@localhost|
+2026-11-24 03:12:11|install|libfoo|0.9-1.1|x86_64|repo-oss|bbb222|
+2026-11-24 03:12:11|remove |libfoo|1.0-1.1|x86_64|root@localhost|
